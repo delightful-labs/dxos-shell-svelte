@@ -141,7 +141,10 @@
 	const { send, state } = useMachine(dxosMachine)
 </script>
 
-<slot />
+{#if !$state.matches('Unititialized')}
+	<slot />
+{/if}
+
 {#if $state}
 	{#if $state.matches('SignedOut')}
 		<IdentityDialogue
