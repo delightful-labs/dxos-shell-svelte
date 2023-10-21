@@ -28,11 +28,6 @@
 		//const client = new Client().halo.createInvitation()
 		//show qr code + url
 		//after invitation received, show code
-		on: {
-			'*': {
-				actions: ({ event }) => console.log(event)
-			}
-		},
 		states: {
 			creatingInvitation: {
 				invoke: {
@@ -76,18 +71,11 @@
 				},
 				initial: 'loading',
 				on: {
-					'*': {
-						actions: ({ event }) => console.log(event)
-					},
 					CONNECTING: {
-						actions: [({ event }) => console.log(event)],
 						target: '.showingInvitation'
 					},
 					READY_FOR_AUTHENTICATION: {
-						actions: [
-							assign({ authCode: ({ event }) => event.authCode }),
-							({ event }) => console.log(event)
-						],
+						actions: [assign({ authCode: ({ event }) => event.authCode })],
 						target: '.showingAuthCode'
 					},
 					COMPLETE: {

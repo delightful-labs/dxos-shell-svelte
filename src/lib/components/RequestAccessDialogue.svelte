@@ -142,13 +142,9 @@
 				initial: 'waiting',
 				invoke: {
 					src: fromCallback(({ input, sendBack }) => {
-						input.observable.subscribe(
-							(x) => {
-								sendBack({ type: 'INVITATION', data: x })
-							},
-							(e) => console.log(e),
-							(e) => console.log(e)
-						)
+						input.observable.subscribe((x) => {
+							sendBack({ type: 'INVITATION', data: x })
+						})
 					}),
 					input: ({ context }) => ({
 						cleint: context.client,
@@ -178,9 +174,6 @@
 						{
 							guard: ({ event }) => event.data.state === Invitation.State.TIMEOUT,
 							target: 'timedOut'
-						},
-						{
-							actions: ({ event }) => console.log(event)
 						}
 					]
 				},

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@dxos/client':
-    specifier: 0.3.1
-    version: 0.3.1
+    specifier: 0.3.2
+    version: 0.3.2
   '@sveltejs/kit':
     specifier: ^1.24.0
     version: 1.24.0(svelte@4.2.0)(vite@4.4.9)
@@ -79,34 +79,34 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.19
 
-  /@dxos/async@0.3.1:
-    resolution: {integrity: sha512-LmLeGpG1V5ELjrSueI+3+HMNO5/KgsKdFw5+SUAKi9CSI6gRE/ZtSzWnnnVIEyT6NU1l23qw5vRyqh4OA1n4Mg==}
+  /@dxos/async@0.3.2:
+    resolution: {integrity: sha512-CTcfF1uZ6mmXLV1XaIwicaFwwBQEWbbLOCB3PFHhe8l/IintiAZSLHUX5SpLhvE8D5JObJcnQESyqrB7CAEF5A==}
     dependencies:
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/util': 0.3.2
       zen-observable: 0.10.0
       zen-push: 0.3.1
     dev: false
 
-  /@dxos/client-protocol@0.3.1:
-    resolution: {integrity: sha512-Gc/1sQZTqi3skqIjz54Rjxnj0f2/AwoRvQi9/KD9PplzaOYPgRKRESirIz4nnMHHQEfShgVaoN7P51Vlv8+AyQ==}
+  /@dxos/client-protocol@0.3.2:
+    resolution: {integrity: sha512-aGkSncLYThr7OnguBO009lQl/hkx2DgeKfz0uxZQ/Zj8tTg0by7hc5tUvFiT1LneRaOP9zlQmEjqz/UAvvkD5Q==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/config': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/echo-db': 0.3.1
-      '@dxos/echo-schema': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/text-model': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/config': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/echo-db': 0.3.2
+      '@dxos/echo-schema': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/text-model': 0.3.2
       base-x: 3.0.9
     transitivePeerDependencies:
       - bufferutil
@@ -115,42 +115,43 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/client-services@0.3.1:
-    resolution: {integrity: sha512-bHf7OE8LwxNtWHDoGTBWWAn3rH/KwMvlk8HrbBYm3crFU3s1ClSV3Hz8WOTL0oO0u+706upE2lYAP8O2xOzvCA==}
+  /@dxos/client-services@0.3.2:
+    resolution: {integrity: sha512-FYhvtd34KA0nHxu2deMjHA7/guLNU75LqztbA6buihFxEKzGDsqBXdvb4ymQTgXsMhPj4X5XlkxEj/mIYWFEhg==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/client-protocol': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/config': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/credentials': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/echo-db': 0.3.1
-      '@dxos/echo-pipeline': 0.3.1
-      '@dxos/echo-schema': 0.3.1
-      '@dxos/feed-store': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keyring': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/lock-file': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/messaging': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/network-manager': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/teleport-extension-gossip': 0.3.1
-      '@dxos/teleport-extension-object-sync': 0.3.1
-      '@dxos/text-model': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/tracing': 0.3.1
-      '@dxos/util': 0.3.1
-      '@dxos/websocket-rpc': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/client-protocol': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/config': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/credentials': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/echo-db': 0.3.2
+      '@dxos/echo-pipeline': 0.3.2
+      '@dxos/echo-schema': 0.3.2
+      '@dxos/feed-store': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keyring': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/lock-file': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/messaging': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/network-manager': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/teleport-extension-gossip': 0.3.2
+      '@dxos/teleport-extension-object-sync': 0.3.2
+      '@dxos/text-model': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/tracing': 0.3.2
+      '@dxos/util': 0.3.2
+      '@dxos/websocket-rpc': 0.3.2
+      platform: 1.3.6
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -158,36 +159,36 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/client@0.3.1:
-    resolution: {integrity: sha512-K/8S2wHOl+mCeHKmjU+Rp0SDCE9zFxsLeTvOinG8YVGjONHrHAGDj/VuMBHCFGTSog06yevbMuM4Otd3BOcpuQ==}
+  /@dxos/client@0.3.2:
+    resolution: {integrity: sha512-WMPZb4+64U85knzPcFB+p1Rh0YDLJk0tAq4+1W7S4pC5vV/E9aZ1hrqsymrKCfu5qxsGuGB5LWCGAT7bNX8WpQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/client-protocol': 0.3.1
-      '@dxos/client-services': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/config': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/credentials': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/echo-db': 0.3.1
-      '@dxos/echo-schema': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/messaging': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/network-manager': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/rpc-tunnel': 0.3.1
-      '@dxos/text-model': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/util': 0.3.1
-      '@dxos/websocket-rpc': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/client-protocol': 0.3.2
+      '@dxos/client-services': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/config': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/credentials': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/echo-db': 0.3.2
+      '@dxos/echo-schema': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/messaging': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/network-manager': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/rpc-tunnel': 0.3.2
+      '@dxos/text-model': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/util': 0.3.2
+      '@dxos/websocket-rpc': 0.3.2
       base-x: 3.0.9
       lodash.isequal: 4.5.0
       lodash.isequalwith: 4.4.0
@@ -198,26 +199,26 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/codec-protobuf@0.3.1:
-    resolution: {integrity: sha512-XrAy5nlJQOa+Grw7PNtFjtmjbxJPJfCHVKz+roLtYYK6eyK8xfwlEAPzc0OL4W6woqSEJahqsRDD2Emxbameow==}
+  /@dxos/codec-protobuf@0.3.2:
+    resolution: {integrity: sha512-r0X7/yOyBJZYIUpJX9zEIs6oiy0EAUtx1u23Ap5ffoKHJL/+zOY1fqwO3dl223DcrL8Xnz/vYyeZeKiBaEErWg==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/util': 0.3.2
       compress-json: 2.1.2
       lodash.merge: 4.6.2
       protobufjs: 7.2.5
     dev: false
 
-  /@dxos/config@0.3.1:
-    resolution: {integrity: sha512-ApDhW/R1AgNrqfLSjHrBgm/ckF8tnRXkOdJJdtBVjV9o2dnWA16ZO+utQmT+RjW0YL6gukj4t49Ah7tiMx0T6Q==}
+  /@dxos/config@0.3.2:
+    resolution: {integrity: sha512-b0KC3YPmbUxC1Jaf/D3crPd5au00zQQJDKmbRSiEXaMO4o7FkO2mVSersc38dcGHoSJlit5sFBTR8PtSaMPaow==}
     dependencies:
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
       boolean: 3.2.0
       js-yaml: 4.1.0
       lodash.defaultsdeep: 4.6.1
@@ -226,30 +227,30 @@ packages:
       pkg-up: 3.1.0
     dev: false
 
-  /@dxos/context@0.3.1:
-    resolution: {integrity: sha512-Kjp0k6wMqm38n8ZErWPKMAzXJ79jD3PYFiHzaqQZkyK5qSHvu/W0F3s5XQU1Ndqv3MifxtJYtsCu6j3vUTh99A==}
+  /@dxos/context@0.3.2:
+    resolution: {integrity: sha512-Cj0JXOgUPgcemiKy1XB4iIl0S0bs/hO7CRX5zEsBAVloslzVWt/zWj17bx49/mF1r0SCPLd4EJ0sk2csPkPmHg==}
     dependencies:
-      '@dxos/log': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/log': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/credentials@0.3.1:
-    resolution: {integrity: sha512-lUiTuT1mRVLWVf0F5imjGN/dLJNu7O+VdEYM5wXAAlTjdFs3CYmKK0YDXs4rEAcJxnzAHXsnVLs9hXn+/EULgw==}
+  /@dxos/credentials@0.3.2:
+    resolution: {integrity: sha512-3UNFV7pS+2Ie8sZMQgPjd5nyT7wDP40TQ37fwx0cjqL7QEPQQUwQTb6TVk/jkmexYUN/IOXlTSF+zOAIG7D3PA==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/feed-store': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keyring': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/feed-store': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keyring': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/util': 0.3.2
       bip39: 3.1.0
       buffer-json-encoding: 1.0.2
       encoding-down: 6.3.0
@@ -264,31 +265,31 @@ packages:
       stream-to-array: 2.3.0
     dev: false
 
-  /@dxos/crypto@0.3.1:
-    resolution: {integrity: sha512-jURlEVNLyXQLSMi/j+gorcXgrpIXuVHmX5HJx5Vx808LaVnrLD7yfB9hgpnc6MzWRwvxx0eoVMwg/hfwuxOeVQ==}
+  /@dxos/crypto@0.3.2:
+    resolution: {integrity: sha512-er4ZCPWAQd1vPb2voT+bGst4CSdtMc1HDxP2rpfQG/N8r4vPIBjdbXG0mBDLY+CmhuvVvDGTGYRGpzSZ0Ca28w==}
     dependencies:
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/node-std': 0.3.1
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/node-std': 0.3.2
       hypercore-crypto: 2.3.2
     dev: false
 
-  /@dxos/debug@0.3.1:
-    resolution: {integrity: sha512-4/asptqXqutKEgsYx9DwbPD5ptizrx9BHs2VUz2rpoT29U/Q6Ni8A+6p1rGVAaUnoybfCsr8c6W2rYMkhvnIiQ==}
+  /@dxos/debug@0.3.2:
+    resolution: {integrity: sha512-/z5AMI9UX6Ts691gCLKq4cOHPX8ylAOR/b+5MUs7Tnd7htqUPCAvPZEeG2myhEYClALoHAfo+9PDCawhuwgQCQ==}
     dependencies:
-      '@dxos/node-std': 0.3.1
+      '@dxos/node-std': 0.3.2
     dev: false
 
-  /@dxos/document-model@0.3.1:
-    resolution: {integrity: sha512-4J58EAr7Dth6aE9QjwRaySx0syV9sST0LeBWq5hWGt3RGnC2xQwnmOWHJEFR36iy5ZjpQl3AhKErfFLt71ThQA==}
+  /@dxos/document-model@0.3.2:
+    resolution: {integrity: sha512-2ri487qCJo71P5QpaOxMM3JEuJ5G6CXjfCe1VSnSzxn5A3uLqPdyLBB+bSjRCYlLWlamEdn6Qo8C3NXlSrc3xw==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/util': 0.3.2
       lodash.clonedeep: 4.5.0
       lodash.get: 4.4.2
       lodash.set: 4.3.2
@@ -296,56 +297,57 @@ packages:
       yjs: 13.6.7
     dev: false
 
-  /@dxos/echo-db@0.3.1:
-    resolution: {integrity: sha512-Yw1dRA3ZBR9nijENvB5tfygwed+pRVBHtkIiFxBm0KPu0jwvfCcHMmAIB0BT1+HmumcwqqRHO/r9sJC1TbTNYQ==}
+  /@dxos/echo-db@0.3.2:
+    resolution: {integrity: sha512-OBXiZxitaxAPf5uxj3YDvXWl4mFoQJ8oHVoUO4CRSO7h7EUhj9RGgsjKvP2YTL/pW6MQqDTZ0VYbDARsYsuefw==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/echo-pipeline@0.3.1:
-    resolution: {integrity: sha512-9nGuwt2zIP34Op33eV2MpBmnYlAEgYadWqlT+XdMC66G7Ml1BlUvQTIf0wF/gP3coS+6lenyqjDqcnIaxvGCfw==}
+  /@dxos/echo-pipeline@0.3.2:
+    resolution: {integrity: sha512-rd4hKwTpQi8LGWtdLBFEjPFUmF13Jp9XF3wmAtYi54KEkwQFysfVBVe2MtjGRKlSOq0KWIg0WT31Zx5Ej+VvpA==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/credentials': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/echo-db': 0.3.1
-      '@dxos/feed-store': 0.3.1
-      '@dxos/hypercore': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keyring': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/messaging': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/network-manager': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/teleport-extension-gossip': 0.3.1
-      '@dxos/teleport-extension-object-sync': 0.3.1
-      '@dxos/teleport-extension-replicator': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/tracing': 0.3.1
-      '@dxos/typings': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/credentials': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/echo-db': 0.3.2
+      '@dxos/feed-store': 0.3.2
+      '@dxos/hypercore': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keyring': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/messaging': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/network-manager': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/teleport-extension-gossip': 0.3.2
+      '@dxos/teleport-extension-object-sync': 0.3.2
+      '@dxos/teleport-extension-replicator': 0.3.2
+      '@dxos/text-model': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/tracing': 0.3.2
+      '@dxos/typings': 0.3.2
+      '@dxos/util': 0.3.2
       crc-32: 1.2.2
     transitivePeerDependencies:
       - bufferutil
@@ -354,26 +356,25 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/echo-schema@0.3.1:
-    resolution: {integrity: sha512-pPJWLZ+hYTwTODgfFSxpHmypkkwLi8HpHtKqtE6H8XM4i5UKgPff0sR2w7lDdHTcXSEoJ9vTU60lcoOCYERHxA==}
+  /@dxos/echo-schema@0.3.2:
+    resolution: {integrity: sha512-V/0sXNwpXoguLiK4pEgmYVtswloP5ni7BZjvHK5nV5fvYMBi1yFoR/7mwWVV8yK3IORPGuwA+jX5C7/uDxPGow==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/document-model': 0.3.1
-      '@dxos/echo-db': 0.3.1
-      '@dxos/echo-pipeline': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/text-model': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/document-model': 0.3.2
+      '@dxos/echo-db': 0.3.2
+      '@dxos/echo-pipeline': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/text-model': 0.3.2
+      '@dxos/util': 0.3.2
       lodash.get: 4.4.2
-      protobufjs: 7.2.5
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -381,22 +382,22 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/feed-store@0.3.1:
-    resolution: {integrity: sha512-g3ZHzFUYqeJCx6bzTVNhsCINYBZnZ+u+skAoLgCVIgC7t0RinNF4YcEX2jwjU9WmDEoXUE/OYh2moHhHqyMz2w==}
+  /@dxos/feed-store@0.3.2:
+    resolution: {integrity: sha512-Ma6dHZ3o7de/M1KywLLuqVAI9OQVS+4gbmBHngPb240THwMFUc5QqnP2VCdhQaXTg/uvpNE8otf7mLUwaJxdOQ==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/hypercore': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keyring': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/hypercore': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keyring': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/util': 0.3.2
       lodash.defaultsdeep: 4.6.1
       race-as-promised: 0.0.2
       random-access-storage: 3.0.1
@@ -405,70 +406,70 @@ packages:
       '@faker-js/faker': 8.0.2
     dev: false
 
-  /@dxos/hypercore@0.3.1:
-    resolution: {integrity: sha512-9PrLp3Ej4NLA5/qws3BC9yM4+v1wCCuWibX3Rxm5lPedSLN+PaSlhY0P+4vMhxyqQvPNGcztwfT5unTx7/2WOg==}
+  /@dxos/hypercore@0.3.2:
+    resolution: {integrity: sha512-atWZNk4kH0ZfvvWeOadF9PaLs4JSCoq+E4dmLLU4WU7BxHG2gJkpZBvXJTyKTi45KKQ7fMrbyA7+eTMAwoe7ZQ==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/typings': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/typings': 0.3.2
+      '@dxos/util': 0.3.2
       readable-stream: 3.6.2
       sodium-native: 3.4.1
       sodium-universal: 3.1.0
       streamx: 2.15.1
     dev: false
 
-  /@dxos/invariant@0.3.1:
-    resolution: {integrity: sha512-rXYJzo0DVSEbtDo2IMn8XnOjsB3rq2neoQ/8ncUeTo1g8ZYzOkCf5o6itcxRxnk91p3w0CZMz6KBCts1gOYcug==}
+  /@dxos/invariant@0.3.2:
+    resolution: {integrity: sha512-XxUfZexCE+dyVPT8yPRfu8gIUcZ5d9WI/lKGsqLGGutT2nrZPYXLrrZSyDSP+J84aMCBBG0mPOtYIB0AVDBhaQ==}
     dependencies:
-      '@dxos/node-std': 0.3.1
+      '@dxos/node-std': 0.3.2
     dev: false
 
-  /@dxos/keyring@0.3.1:
-    resolution: {integrity: sha512-0Rc+0Zw6RN+IuVcObkjW5SeZj46QSZ+4drvq+Hp9UyBc2O+SeB35DJIZ4lXCDk0zgQmJbK7vzkai0jMEZIKc1A==}
+  /@dxos/keyring@0.3.2:
+    resolution: {integrity: sha512-2J/iPez058cUCjTRlmeL69bdty0HennjpTmY2crsam0eimvHf6jq5mz1gV/NlnUptUv/lS+HvpG2OCbSXcLaCQ==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/keys@0.3.1:
-    resolution: {integrity: sha512-asApUHuqgCa1lq2Fpc9Zp9+uGXPvRASFEYmh8zDJ3lrin5Kyi+HiifmAOGtPAfazzHc8vbdEK7gpJ6m55QqT8g==}
+  /@dxos/keys@0.3.2:
+    resolution: {integrity: sha512-lk/L0BPnsp9o43LFEt+d3G+pf+04Rtwtb5UZoMfGvfeN07fiLRnXioyYDjPlj4OGaZH7OGWZCOsskyOD1SFikQ==}
     dependencies:
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/node-std': 0.3.1
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/node-std': 0.3.2
       randombytes: 2.1.0
     dev: false
 
-  /@dxos/lock-file@0.3.1:
-    resolution: {integrity: sha512-IrrqgukyWRxAqqOJcEGb49VTo92Tgc6J/qWoX4jmqsU+5zHEWvW5JWLdPlXRJauak5Vrt+BQKO8O9bxwtA7iTw==}
+  /@dxos/lock-file@0.3.2:
+    resolution: {integrity: sha512-UQe0Rk0uchx6JpHfZnHVv2guX3EBSgpcxLyEhgNJJ7DzJuSGKMYNDFgfqc+fLRQtzTPPKlWw+Zv1pf3lloXbcA==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
       fs-ext: 2.0.0
     dev: false
 
-  /@dxos/log@0.3.1:
-    resolution: {integrity: sha512-DyZDdmIt+O0JEKSiH6Zq9s7yORzrGzweCARgL/RGCLKtmjbAj4o7CnnxWcirWpTmF8XrTTHF+Pu9HQ+HYRiJwA==}
+  /@dxos/log@0.3.2:
+    resolution: {integrity: sha512-6WsKWXWld2V+inUR6qAAVEbXi6faMEbK/yFhz2lYqOQszNa+PBmA7qlC8ANS5jWDcdjovgEC/wSj0oKGFwJdhg==}
     dependencies:
-      '@dxos/node-std': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/node-std': 0.3.2
+      '@dxos/util': 0.3.2
       chalk: 4.1.2
       js-yaml: 4.1.0
       lodash.defaultsdeep: 4.6.1
@@ -477,19 +478,19 @@ packages:
       lodash.pickby: 4.6.0
     dev: false
 
-  /@dxos/messaging@0.3.1:
-    resolution: {integrity: sha512-NEbJ37uQvaj5ch74zUT6ZfqZNrUBnRb7psgfVAdecl0Lej/v/jl/0i5fS0+jEscLpT8wEehJrg87MUb8oUl6bg==}
+  /@dxos/messaging@0.3.2:
+    resolution: {integrity: sha512-ier5aIzF5snJrNbTngkTcVjAnzXbH56MNNQIew9eMCVMZGw6buu7AcRt7rLutRcDGIwl/cVvRi9r+lpt79clIA==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/util': 0.3.2
       isomorphic-ws: 4.0.1(ws@7.5.9)
       ws: 7.5.9
     transitivePeerDependencies:
@@ -497,41 +498,41 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/model-factory@0.3.1:
-    resolution: {integrity: sha512-wPVdapJR+/EIC77WL9LFkkvxRJHbDsOlwjtekxHXZF7Jik4hBwL84z9xVcw4FIrKMVvEi7BYr4SLsUQ99agY+Q==}
+  /@dxos/model-factory@0.3.2:
+    resolution: {integrity: sha512-CQsa79mbaHPsGVTCjuXmwV5pNYmQtKh9t/1dNALdpB9cVyTr5+08XTc5+vs7qSGxsF1Ry13I1aP/NYhaPgza4g==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/feed-store': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/timeframe': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/feed-store': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/timeframe': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/network-manager@0.3.1:
-    resolution: {integrity: sha512-ZnXcONiEfHgbpBbn8toKfUFR67/EMNns1LVVYR/j2DGUYanM4t6oWVoTPFf6Gl8GELiQ0FrAnZvC+4UIijYbEw==}
+  /@dxos/network-manager@0.3.2:
+    resolution: {integrity: sha512-Ru2UVeeVydOyWpnXUhbePZnfWi1VGogy2OxiPPT/93sMQtyZ9afvkES1aLd3dMKjzXvyuKohxE1iSXEN7pOaiw==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/credentials': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/messaging': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/credentials': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/messaging': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/util': 0.3.2
       '@koush/wrtc': 0.5.3
       isomorphic-ws: 4.0.1(ws@7.5.9)
       nanomessage-rpc: 3.2.0
@@ -549,8 +550,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@dxos/node-std@0.3.1:
-    resolution: {integrity: sha512-PiEHiasfpCcZFfeHOFOC1LsEJKFGwkwiMUleooIY4U8RcpirJJdKTpf2IgN15E8IDzhH0s756Miuj5wi5RFPBg==}
+  /@dxos/node-std@0.3.2:
+    resolution: {integrity: sha512-Pw7HYcBq8OY2ipCg7gEuWP2dDb0hMIOE4Wa8M1cSKn5O0kjb8L1kokYfxUZVXlw+YrJTq9IKIrOx0EJ9Xt+hmA==}
     dependencies:
       assert: 2.0.0
       buffer: 6.0.3
@@ -560,26 +561,26 @@ packages:
       util: 0.12.5
     dev: false
 
-  /@dxos/protocols@0.3.1:
-    resolution: {integrity: sha512-JSN/QEn7mbw5Q+po81nR2DpkYzmUJP8dXFhlwLOpngqPfHhB6DvnkdHXkkUXA3TgkVBybO74jy8SRlbrIijG8A==}
+  /@dxos/protocols@0.3.2:
+    resolution: {integrity: sha512-RNaUr67I99FptkOx3FpGTV/Ekaw7ZbHbR0ZimeZo0URE0gPsOs9JltGDsck20ix+mLKlxHvH3ODpBhjBGhzYFQ==}
     dependencies:
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/timeframe': 0.3.1
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/timeframe': 0.3.2
     dev: false
 
-  /@dxos/random-access-storage@0.3.1:
-    resolution: {integrity: sha512-Xdcz9UFh/cG9Wyi2sgt+dTIEXKpzb2Dr81MOJFoprQpdnxVkZKZWZQBK5Fy6scubk3MgZ4OqlmA1vtDxlBd36g==}
+  /@dxos/random-access-storage@0.3.2:
+    resolution: {integrity: sha512-o8UmdRTEDHhBA5UiDqjtyTRj2JD7N3EcvEBHRO5icqVaiKqANvtD2d2Q17R+54oylT58rVLXmI5plDGZr0AHOQ==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/tracing': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/tracing': 0.3.2
+      '@dxos/util': 0.3.2
       del: 5.1.0
       pify: 5.0.0
       random-access-file: 2.2.1
@@ -589,158 +590,158 @@ packages:
       random-access-web: 2.0.3
     dev: false
 
-  /@dxos/rpc-tunnel@0.3.1:
-    resolution: {integrity: sha512-xdAG6n1QUR80sNIuSv8pmtUy9xq7QCMSAG/212h/j+3ljd2hcCAqiVbP5q3O4cHnzYzavxdt/j6qt+zrizW1Qg==}
+  /@dxos/rpc-tunnel@0.3.2:
+    resolution: {integrity: sha512-z6lJZ9vXyF/ceT760RKuB3xOHqqChyFSCIrfnKTXetgmDGnRj6u2FCvKb3WLENQeRtek4VIalVuIRK83L1Dr/Q==}
     dependencies:
-      '@dxos/log': 0.3.1
-      '@dxos/rpc': 0.3.1
+      '@dxos/log': 0.3.2
+      '@dxos/rpc': 0.3.2
       ua-parser-js: 1.0.35
     dev: false
 
-  /@dxos/rpc@0.3.1:
-    resolution: {integrity: sha512-byTtMldDay6ttdXq1M/LC+6NmRSle/RsC3s0Pr3rFgi3dI8hti8vuFj48lkzY6Zvsl7Xh6nWys+vlZeOpqBjwA==}
+  /@dxos/rpc@0.3.2:
+    resolution: {integrity: sha512-rqgPzPhE4L651xguZfjAJIxmqqS5eIcngsCIb9bPMrODu0V8cnQA3h8Xa23yKrY85EYusvFys+XufHVc/EvRhg==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/teleport-extension-gossip@0.3.1:
-    resolution: {integrity: sha512-By6L34gT18y7zZEDi9/PtD9in57rwa70yzV8RcEjddrXJa5jta9NBzT1Oc3m69+xfNx7z17XgxuY0rypnm9icg==}
+  /@dxos/teleport-extension-gossip@0.3.2:
+    resolution: {integrity: sha512-A+pMc+bpGcQKnl8BIsdtzZfPwxxzRAuDqgHqdnIq8egQ2pmAorHBtQgSboUr3cyNXm+8lnZvbPQVetSm+A6yiw==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/teleport-extension-object-sync@0.3.1:
-    resolution: {integrity: sha512-G58TtesMhpr5fnRSoKEQrqsiixjwbCNrC9psmigaT7Sb5SwTRmaHpkKJJPXLaGA9TjxoL12riqTyXNXhKWZi2A==}
+  /@dxos/teleport-extension-object-sync@0.3.2:
+    resolution: {integrity: sha512-Z+1Mtiszt3rePNJlHVCA3kitnXS1Ed+GexQg7DAtMWtALFi0VVOvrz5Sq0Txr9R6bqyy2v1/AZWinoh7un7hNg==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/crypto': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/random-access-storage': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/crypto': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/random-access-storage': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/teleport-extension-replicator@0.3.1:
-    resolution: {integrity: sha512-PjcFPuCjArUFX9U5PfgFq50/vfEKf1tYx50kS9NFHk8Mptl906LuWGif6jGJLkLgCnLAtgvZkxbeqS0EbK/7aQ==}
+  /@dxos/teleport-extension-replicator@0.3.2:
+    resolution: {integrity: sha512-rp2l55FIjYtsn2hH8ZpYyB0zQ5sU0VL56XbocZk7+xcXPIhe/O4NogWAMIjEk6iUYZAQRODan1JJjGtVNDrkRA==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/feed-store': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/teleport': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/feed-store': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/teleport': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/teleport@0.3.1:
-    resolution: {integrity: sha512-mwGet8ZaOWsiyf0rHYwVgZ5bhlJLiQpE+iLRnnGtQ+MhCU/lmJh0Y6PfpRWVgGKnojf2sQ9cBOTQ0dZV79oF/A==}
+  /@dxos/teleport@0.3.2:
+    resolution: {integrity: sha512-H5LX6j4RBVueqwkrLz4jyrElav8LYNdDl0qmUelTOcI/SO2eueow5Wcr43PMa/vKGQJQ8L3ZeW/phLjE6cMaGg==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/util': 0.3.2
       randombytes: 2.1.0
       varint: 6.0.0
     dev: false
 
-  /@dxos/text-model@0.3.1:
-    resolution: {integrity: sha512-59h4ZsVPupF3CH2YvRk6yn65vDl5X0xFeswmwUDOon+ZhAJILg+8y4Kas8Z78efCkV7WRQBpRYvl3xMbBSV7NA==}
+  /@dxos/text-model@0.3.2:
+    resolution: {integrity: sha512-iWWHyVgmVstWRFOa3v06Yrxf1EtTy7P+d0vyDLxUQ4V6CuaQxVjywVqyFtDeHKRK4Z2CW9FzQrcvtQ1wB0XmQA==}
     dependencies:
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/model-factory': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/model-factory': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
       '@types/node': 18.17.12
       yjs: 13.6.7
     dev: false
 
-  /@dxos/timeframe@0.3.1:
-    resolution: {integrity: sha512-OD5Rl6us9yujE/9l9sq31a5VVgvwj3j4DRtvxuO8X/TMtSLbrwrj2l1x1rRxoGvrH7AItafbeJLGq7xb+Cl7rQ==}
+  /@dxos/timeframe@0.3.2:
+    resolution: {integrity: sha512-xe90nMmR32IVSvNyP0yXwB3qH75clSdd5znWWI1iNPbQ5QmHbwYNeRGp/CrvR+c2kNmqUbl/B5eYiVNfm475Sw==}
     dependencies:
-      '@dxos/debug': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/debug': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/tracing@0.3.1:
-    resolution: {integrity: sha512-fmMg950JY1PQPZpUGfOCeaB3ziufk2bd9+cS472Q1tgKhHZmHiHjNq3iEOuC4Ovt2AxOmVhBMFT28BM7TWpglg==}
+  /@dxos/tracing@0.3.2:
+    resolution: {integrity: sha512-Yd2y6PJXXj+QJBl6VI26CE8MajGY5qiyhdh7olxDji571OEw6wEvCXS3OIi0kTVyxO9cMjV5YjcW+3rttSbWkQ==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/util': 0.3.2
     dev: false
 
-  /@dxos/typings@0.3.1:
-    resolution: {integrity: sha512-6wf9F2S0peqwI/kBzBfT/Skyy2+gPYMa64jhDSqAAZy/kx/Nndj3ypFfaZ3IIW7bp22CxA0g0tHplJ/1koXJUw==}
+  /@dxos/typings@0.3.2:
+    resolution: {integrity: sha512-8aniUv4l3g5iW10vAdJ0gDEO4/VCGWDC/0tWS2VE1NvJqfNZAMaFAPLCN14FljPjhPrmwXWIvOyvDInnmP9pBQ==}
     dev: false
 
-  /@dxos/util@0.3.1:
-    resolution: {integrity: sha512-Eufm60mtOps2fVkqys+4F3CrPAKHvKmeNV6b9cjzki6cIUm4YnBOLLTzopKnS79V0kzVMiR/C4SwWurcYismwg==}
+  /@dxos/util@0.3.2:
+    resolution: {integrity: sha512-u+ZR1Gum20aVsILq1mXDsEJlw8uR0zd0w/2K7taHrY9X8X6jSU8E2STDkV5uTuVcB/IAvLXC7ReVYIsmckaIXw==}
     dependencies:
-      '@dxos/debug': 0.3.1
-      '@dxos/invariant': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/node-std': 0.3.1
+      '@dxos/debug': 0.3.2
+      '@dxos/invariant': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/node-std': 0.3.2
     dev: false
 
-  /@dxos/websocket-rpc@0.3.1:
-    resolution: {integrity: sha512-Ngc3IWBoL/3vjjs73GiRnV/S/0x6+/WhZH+Y1UTzHKeKEPoPRxOGzBFl/6JWEMdlI3tHLS/nqPMf3ZDN/cK0HA==}
+  /@dxos/websocket-rpc@0.3.2:
+    resolution: {integrity: sha512-euoPx+HczNHIX9AzS+UFyQbSbPvTwZga02qpbkkVnyiDTUZJTQsyLVbJKNXFuV+wzmxy2veppBpnqR+bP21orw==}
     dependencies:
-      '@dxos/async': 0.3.1
-      '@dxos/codec-protobuf': 0.3.1
-      '@dxos/context': 0.3.1
-      '@dxos/keys': 0.3.1
-      '@dxos/log': 0.3.1
-      '@dxos/node-std': 0.3.1
-      '@dxos/protocols': 0.3.1
-      '@dxos/rpc': 0.3.1
-      '@dxos/util': 0.3.1
+      '@dxos/async': 0.3.2
+      '@dxos/codec-protobuf': 0.3.2
+      '@dxos/context': 0.3.2
+      '@dxos/keys': 0.3.2
+      '@dxos/log': 0.3.2
+      '@dxos/node-std': 0.3.2
+      '@dxos/protocols': 0.3.2
+      '@dxos/rpc': 0.3.2
+      '@dxos/util': 0.3.2
       isomorphic-ws: 4.0.1(ws@7.5.9)
       ws: 7.5.9
     transitivePeerDependencies:
@@ -1492,6 +1493,7 @@ packages:
       buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.2
+    dev: false
 
   /blake2b-wasm@2.4.0:
     resolution: {integrity: sha512-S1kwmW2ZhZFFFOghcx73+ZajEfKBqhP82JMssxtLVMxlaPea1p9uoLiUZ5WYyHn0KddwbLc+0vh4wR0KBNoT5w==}
@@ -1658,6 +1660,7 @@ packages:
 
   /chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
+    dev: false
 
   /chownr@2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
@@ -1769,6 +1772,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       mimic-response: 3.1.0
+    dev: false
 
   /dedent-js@1.0.1:
     resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
@@ -1784,6 +1788,7 @@ packages:
   /deep-extend@0.6.0:
     resolution: {integrity: sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==}
     engines: {node: '>=4.0.0'}
+    dev: false
 
   /deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
@@ -2112,6 +2117,7 @@ packages:
   /expand-template@2.0.3:
     resolution: {integrity: sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==}
     engines: {node: '>=6'}
+    dev: false
 
   /fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
@@ -2201,6 +2207,7 @@ packages:
 
   /fs-constants@1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
+    dev: false
 
   /fs-ext@2.0.0:
     resolution: {integrity: sha512-aK8NlpSO5LUdSoWeshpnkgtptbua1rGo58Wc+mHQ2+JnoBlubMTsnV56Swl4bA0msrgAhG8TDu1aGS8deJwzBQ==}
@@ -2281,6 +2288,7 @@ packages:
 
   /github-from-package@0.0.0:
     resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
+    dev: false
 
   /glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -2471,6 +2479,7 @@ packages:
 
   /ini@1.3.8:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
+    dev: false
 
   /invert-kv@1.0.0:
     resolution: {integrity: sha512-xgs2NH9AE66ucSq4cNG1nhSFghr5l6tdL15Pk+jl46bmmBapgoaY/AacXyaDznAqmGL99TiLSQgO/XazFSKYeQ==}
@@ -2881,6 +2890,7 @@ packages:
   /mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
     engines: {node: '>=10'}
+    dev: false
 
   /min-indent@1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
@@ -3014,6 +3024,7 @@ packages:
 
   /napi-build-utils@1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
+    dev: false
 
   /napi-macros@2.0.0:
     resolution: {integrity: sha512-A0xLykHtARfueITVDernsAWdtIMbOJgKgcluwENp3AlsKN/PloyO10HtmoqnFAQAcxPkgZN7wdfPfEd0zNGxbg==}
@@ -3039,6 +3050,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       semver: 7.5.4
+    dev: false
 
   /node-addon-api@1.7.2:
     resolution: {integrity: sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==}
@@ -3379,6 +3391,10 @@ packages:
       find-up: 3.0.0
     dev: false
 
+  /platform@1.3.6:
+    resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
+    dev: false
+
   /playwright-core@1.37.1:
     resolution: {integrity: sha512-17EuQxlSIYCmEMwzMqusJ2ztDgJePjrbttaefgdsiqeLWidjYz9BxXaTaZWxH1J95SHGk6tjE+dwgWILJoUZfA==}
     engines: {node: '>=16'}
@@ -3453,6 +3469,7 @@ packages:
       simple-get: 4.0.1
       tar-fs: 2.1.1
       tunnel-agent: 0.6.0
+    dev: false
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -3643,6 +3660,7 @@ packages:
       ini: 1.3.8
       minimist: 1.2.8
       strip-json-comments: 2.0.1
+    dev: false
 
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
@@ -3826,6 +3844,7 @@ packages:
 
   /simple-concat@1.0.1:
     resolution: {integrity: sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==}
+    dev: false
 
   /simple-get@4.0.1:
     resolution: {integrity: sha512-brv7p5WgH0jmQJr1ZDDfKDOSeWWg+OVypG99A/5vYGPqJ6pxiaHLy8nxtFjBA7oMa01ebA9gfh1uMCFqOuXxvA==}
@@ -3833,6 +3852,7 @@ packages:
       decompress-response: 6.0.0
       once: 1.4.0
       simple-concat: 1.0.1
+    dev: false
 
   /simple-peer@9.11.1:
     resolution: {integrity: sha512-D1SaWpOW8afq1CZGWB8xTfrT3FekjQmPValrqncJMX7QFl8YwhrPTZvMCANLtgBwwdS+7zURyqxDDEmY558tTw==}
@@ -4022,6 +4042,7 @@ packages:
   /strip-json-comments@2.0.1:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
+    dev: false
 
   /strip-json-comments@3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
@@ -4182,6 +4203,7 @@ packages:
       mkdirp-classic: 0.5.3
       pump: 3.0.0
       tar-stream: 2.2.0
+    dev: false
 
   /tar-stream@2.2.0:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
@@ -4192,6 +4214,7 @@ packages:
       fs-constants: 1.0.0
       inherits: 2.0.4
       readable-stream: 3.6.2
+    dev: false
 
   /tar@6.1.15:
     resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==}
@@ -4255,6 +4278,7 @@ packages:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
     dependencies:
       safe-buffer: 5.2.1
+    dev: false
 
   /type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}

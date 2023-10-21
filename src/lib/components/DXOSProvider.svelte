@@ -99,8 +99,7 @@
 							idle: {
 								on: {
 									SAVE_DISPLAYNAME: {
-										target: 'savingDisplayname',
-										actions: ({ event }) => console.log(event)
+										target: 'savingDisplayname'
 									}
 								}
 							},
@@ -117,7 +116,6 @@
 										displayName: event.value
 									}),
 									onDone: {
-										actions: ({ event }) => console.log(event),
 										target: 'done'
 									},
 									onError: {

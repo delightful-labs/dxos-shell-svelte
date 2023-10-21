@@ -1,6 +1,6 @@
 {
 	"name": "dxos-shell-svelte",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"scripts": {
 		"dev": "vite dev",
     "build": "vite build && npm run package",
@@ -45,7 +45,7 @@
 		"vitest": "^0.32.4"
 	},
 	"dependencies": {
-		"@dxos/client": "0.3.1",
+		"@dxos/client": "0.3.2",
 		"delightful-ui": "^0.0.24",
 		"qrcode-svg": "^1.1.0",
 		"xstate": "5.0.0-beta.29"
